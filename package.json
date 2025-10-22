@@ -1,0 +1,17 @@
+{
+  "name": "hng-stage-one",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Oluwatobiloba Osinubi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^5.1.0"
+  }
+}
