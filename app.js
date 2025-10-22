@@ -1,6 +1,12 @@
 const express = require("express")
+const crypto = require("crypto")
+
+
 const app = express()
+app.use(express.json()); // Parse JSON bodies
 var unique = 0
+
+let string = []
 
 function palindrome(str) {
     end = str.length - 1
